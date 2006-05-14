@@ -1,3 +1,6 @@
  es_source = HepPDTESSource {
-   string pdtFileName = "PythiaTable.out"
+   string HepPDTBase( getenv("HEPPDT_PARAM_PATH") ) ; 
+  fPDGTablePath = HepPDTBase + "/data/" ;
+  fPDGTableName = "PythiaTable.tbl"; 
+  string pdtFileName = fPDGTablePath + fPDGTableName;
  }  
