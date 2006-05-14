@@ -1,0 +1,3 @@
+ es_source = HepPDTESSource {
+   string pdtFileName = "PythiaTable.out"
+ }  
