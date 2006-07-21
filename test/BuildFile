@@ -1,0 +1,9 @@
+<use name=SimGeneral/HepPDTESSource>
+<use name=FWCore/Framework>
+<use name=FWCore/ParameterSet>
+<use name=Foundation/PluginManager>
+<use name=clhep>
+
+<flags SEAL_PLUGIN_NAME="HepPDTAnalyzer">
+<library file=HepPDTAnalyzer.cc name=HepPDTAnalyzer>
+</library>
