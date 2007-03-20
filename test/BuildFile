@@ -2,7 +2,7 @@
 <use name=FWCore/Framework>
 <use name=FWCore/ParameterSet>
 <use name=Foundation/PluginManager>
-<use name=clhep>
+<use name=heppdt>
 
 <flags SEAL_PLUGIN_NAME="HepPDTAnalyzer">
 <library file=HepPDTAnalyzer.cc name=HepPDTAnalyzer>
