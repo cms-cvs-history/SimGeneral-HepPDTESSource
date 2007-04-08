@@ -3,6 +3,5 @@
   <use name=SimGeneral/HepPDTESSource>
   <use name=FWCore/Framework>
   <use name=FWCore/ParameterSet>
-  <use name=Foundation/PluginManager>
   <use name=SimDataFormats/HepMCProduct>
 </library>
