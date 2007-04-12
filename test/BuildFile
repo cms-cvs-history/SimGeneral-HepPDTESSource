@@ -1,5 +1,5 @@
 <library file=HepPDTAnalyzer.cc name=HepPDTAnalyzer>
-  <flags SEAL_PLUGIN_NAME="HepPDTAnalyzer">
+  <flags EDM_PLUGIN=1>
   <use name=SimGeneral/HepPDTESSource>
   <use name=FWCore/Framework>
   <use name=FWCore/ParameterSet>
