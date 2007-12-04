@@ -1,3 +1,3 @@
- es_source = PythiaPDTESSource {
-   FileInPath pdtFileName = "SimGeneral/HepPDTESSource/data/Pythia6Table.tbl"
+ es_source = HepPDTESSource {
+   FileInPath pdtFileName = "SimGeneral/HepPDTESSource/data/pythiaparticle.tbl"
  }  
