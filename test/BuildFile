@@ -3,5 +3,5 @@
 <use name=SimGeneral/HepPDTRecord>
   <use name=FWCore/Framework>
   <use name=FWCore/ParameterSet>
-  <use name=SimDataFormats/HepMCProduct>
+  <use name=SimDataFormats/GeneratorProducts>
 </library>
